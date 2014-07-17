@@ -7,6 +7,18 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	
+	
+	<link rel="stylesheet" href="/stylesheets/releases.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js">
+</script>
+<script src="/javascripts/moment-with-langs.js"></script>
+<script src="/javascripts/github-releases.js"></script>
+<script>updateDownloadPage();</script>
+<script>updateFrontPage();</script>
+	
+	
+	
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,9 +55,11 @@
 
         <h3><a name="getting-the-crescendo-tool" class="anchor" href="#getting-the-crescendo-tool"><span class="octicon octicon-link"></span></a>Getting the Crescendo tool.</h3>
 
-        <p>Downloads of ready-to-run versions of the Crescendo Tool are presently hosted on DropBox; the current version is Release 2.0.0.  We have two types of package available: a completely bundled installer, containing both the Overture platform and the 20-Sim tool, and we also have Zip files that contain just the Crescendo/Overture component.  Both types are available for 32-bit and 64-bit Java installations.  Please use one of the links below to download the tool.</p>
+        <p>Downloads of ready-to-run versions of the Crescendo Tool; the current version is <strong id="current-release-version">2.0.8</strong> <i id="current-release-data"> (May 2014) </i>.  We have two types of package available: a completely bundled installer, containing both the Overture platform and the 20-Sim tool, and we also have Zip files that contain just the Crescendo/Overture component.  Both types are available for 32-bit and 64-bit Java installations.  Please use one of the links below to download the tool.</p>
 
-        <ul>
+		<div id="current-release"></div>
+		
+        <!--ul>
           <li>Crescendo Installers with 20-Sim
             <ul>
               <li><a href="https://db.tt/h029qVLr">Crescendo Installer for 32-bit Java Installations on Windows</a></li>
@@ -58,8 +72,12 @@
               <li><a href="https://db.tt/ywaeRMWC">Crescendo Zip file for 64-bit Java Installations on Windows</a></li>
             </ul>
           </li>
-        </ul>
+        </ul-->
 
+		<p>Release History</p>
+
+		<div id="release-history"></div>
+		
         <h3><a name="getting-documentation" class="anchor" href="#getting-documentation"><span class="octicon octicon-link"></span></a>Getting documentation.</h3>
 
         <p>Documentation may be found on <a href="http://www.destecs.org/downloads.html">the download page</a> with the ready-to-run versions of the tool.</p>
