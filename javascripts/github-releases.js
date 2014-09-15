@@ -169,7 +169,7 @@ function countTotalAssetDownloads(assets) {
 
     var count = 0;
     $.each(assets, function (i, asset) {
-        if (("" + asset.name).indexOf("Overture") > -1) {
+        if (("" + asset.name).indexOf("Crescendo") > -1) {
             count = count + asset.download_count;
         }
     });
