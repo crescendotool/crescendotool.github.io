@@ -1,0 +1,18 @@
+highligher: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables","smart","no_intra_emphasis","fenced_code_blocks","autolink"]
+encoding: utf-8
+url: http://crescendotool.org
+
+collections:
+  netmeetings:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      
