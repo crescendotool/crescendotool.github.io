@@ -5,7 +5,31 @@ title: Examples
 
 # Examples
 
-Here the Crescendo Examples will be presented soon.
+We maintain a large database of illustrative examples, coming from a
+wide variety of sources and application areas. These examples can be
+used as inspiration for your own modelling work. We also use these
+examples to validate changes made to the tools.  All examples are
+included in our continuous build environment such that both model and
+tool consistency is checked.
+
+Examples are available from the Crescendo Book and the Examples Compendium. On these
+pages, you find a detailed overview of each example. You can also
+download a bundle of all examples for each group:
+
+|||
+|---|---|
+| [Crescendo example listing page]({{ site.url }}/examples/crescendoexamples/) | [zip bundle]({{ site.url }}/download/examples/Examples-VDMSL.zip) |
+| [Crescendo book example listing page]({{ site.url }}/examples/crescendobookexamples/)  | [zip bundle]({{ site.url }}/download/examples/Examples-VDM++.zip) |
+
+
+<!--If you have questions on these examples, you can either post a
+question on
+[StackOverflow using the VDM++ tag](http://stackoverflow.com/questions/tagged/vdm%2b%2b)
+or [send us an email](mailto:info@overturetool.org).  If you have an
+example to contribute to our collection, we are very happy to hear
+from you!-->
+
+A guide that explains how to import the projects are available at [Importing External Zipped Projects into Overture]({{ site.url }}/download/examples/importing-external-projects.html).
 
 <!-- We maintain a large database of illustrative examples, coming from a
 wide variety of sources and application areas. These examples can be
