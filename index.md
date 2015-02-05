@@ -47,7 +47,7 @@ The Crescendo Tool is an open-source tool originally developed in the <a href="h
 
 <h3><a name="books" class="anchor" href="#getting-the-crescendo-tool"></a>Books</h3>
 
-<p>The book "The Book on Collaborative Development of Cyber-Physical Systems" can be fetched from <a href="http://www.springer.com/computer/communication+networks/book/978-3-642-54117-9">Springer's web site</a></p>
+<p>The book "Collaborative Design for Embedded Systems" can be fetched from <a href="http://www.springer.com/computer/communication+networks/book/978-3-642-54117-9">Springer's web site</a></p>
 
 <h3><a name="getting-the-crescendo-tool" class="anchor" href="#getting-the-crescendo-tool"></a>Getting the Crescendo tool</h3>
 
