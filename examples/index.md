@@ -18,8 +18,8 @@ download a bundle of all examples for each group:
 
 |||
 |---|---|
-| [Crescendo example listing page]({{ site.url }}/examples/crescendoexamples/) | [zip bundle]({{ site.url }}/download/examples/Examples-VDMSL.zip) |
-| [Crescendo book example listing page]({{ site.url }}/examples/crescendobookexamples/)  | [zip bundle]({{ site.url }}/download/examples/Examples-VDM++.zip) |
+| [Crescendo example listing page]({{ site.url }}/examples/crescendoexamples/) | [zip bundle]({{ site.url }}/examples/examples.zip) |
+| [Crescendo book example listing page]({{ site.url }}/examples/crescendobookexamples/)  | [zip bundle]({{ site.url }}/examples/bookexamples.zip) |
 
 
 <!--If you have questions on these examples, you can either post a
@@ -28,8 +28,8 @@ question on
 or [send us an email](mailto:info@overturetool.org).  If you have an
 example to contribute to our collection, we are very happy to hear
 from you!-->
-
-A guide that explains how to import the projects are available at [Importing External Zipped Projects into Overture]({{ site.url }}/download/examples/importing-external-projects.html).
+<!--
+A guide that explains how to import the projects are available at [Importing External Zipped Projects into Overture]({{ site.url }}/download/examples/importing-external-projects.html).!-->
 
 <!-- We maintain a large database of illustrative examples, coming from a
 wide variety of sources and application areas. These examples can be
