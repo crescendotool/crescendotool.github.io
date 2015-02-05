@@ -20,4 +20,4 @@ studying ChesswayCrescendo.
 | | |
 |------|-------|
 |Author:|Marcel Verhoef|
-|Details...|[model (zip)](ChesswaySimple/ChesswaySimple.zip)  / [show specification](ChesswaySimple/index.html)|
+|Details:|[model (zip)](ChesswaySimple/ChesswaySimple.zip)  / [show specification](ChesswaySimple/index.html)|
