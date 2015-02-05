@@ -16,6 +16,13 @@ can be used to determine the current angle. Each wheel has its own motor, althou
 single controller for both motors, so the scooter travels in a straight line only.
 Users simply lean forwards to increase forward motion. This is a trivial and simple version of the ChessWay model; for more advanced versions of the same vehicle we recommend
 studying ChesswayCrescendo.
+USAGE
+The ChessWay Simple model is designed to be a simple introduction to a more complex version of
+the same scooter (see Chapter 13). Running a simulation of the Simple model demonstrates how
+54CHAPTER 11. CHESSWAY SIMPLE
+the scooter responds to small changes in velocity by altering signals to the actuators so that it can
+maintain an upright position by way of many small corrections.
+
 
 | | |
 |------|-------|
