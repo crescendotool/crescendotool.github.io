@@ -31,24 +31,6 @@ The Crescendo Tool is an open-source tool originally developed in the <a href="h
 
 <p>The book "Collaborative Design for Embedded Systems" can be fetched from <a href="http://www.springer.com/computer/communication+networks/book/978-3-642-54117-9">Springer's web site</a></p>
 
-<h3><a name="getting-the-crescendo-tool" class="anchor" href="#getting-the-crescendo-tool"></a>Getting the Crescendo tool</h3>
-
-<p>We have two Crescendo Tool packages available:
-          <ul>
-            <li>Complete bundled installer, with Crescendo/Overture and 20-Sim</li>
-            <li>Zip bundles just containing Crescendo/Overture</li>
-          </ul>
-
-Both types are available for 32/64-bit for Java. The current version is <strong id="current-release-version">2.0.x</strong>
-
-<i id="current-release-data">(May 2014)</i>.</p>
-
-<div id="current-release"></div>
-
-<p>Release History</p>
-
-<div id="release-history"></div>
-
 <h3><a name="getting-documentation" class="anchor" href="#getting-documentation"></a>Getting documentation</h3>
 
  <ul>
