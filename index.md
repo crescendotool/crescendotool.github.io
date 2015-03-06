@@ -36,8 +36,7 @@ The Crescendo Tool is an open-source tool originally developed in the <a href="h
 
 </div>
 
-
-<!-- ||
+||
 |----|
 | The current stable version is <strong id="current-release-version">2.0.8</strong> <i id="current-release-data"> (May 2014) </i> which you can [download here]({{ site.url }}/download/).|
 
