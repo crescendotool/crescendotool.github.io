@@ -3,6 +3,14 @@ layout: default
 title: downloads
 ---
 
+<link rel="stylesheet" href="stylesheets/styles.css">
+<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<link rel="stylesheet" href="/stylesheets/releases.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="/javascripts/moment-with-langs.js"></script>
+<script src="/javascripts/github-releases.js"></script>
+<script>updateDownloadPage();</script>
+
 <h3><a name="getting-the-crescendo-tool" class="anchor" href="#getting-the-crescendo-tool"></a>Getting the Crescendo tool</h3>
 
 <p>We have two Crescendo Tool packages available:
@@ -17,6 +25,6 @@ Both types are available for 32/64-bit for Java. The current version is <strong 
 
 <div id="current-release"></div>
 
-<p>Release History</p>
+<h3>Release History</h3>
 
 <h3 id="release-history"></h3>
