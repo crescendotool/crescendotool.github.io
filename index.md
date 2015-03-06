@@ -27,10 +27,6 @@ The Crescendo Tool is an open-source tool originally developed in the <a href="h
 
 <p>The Crescendo Tool is an open-source tool originally developed in the <a href="http://www.destecs.org/">EU DESTECS (Design Support and Tooling for Embedded Control Software)</a> research project.  The focus is on using co-simulation to design and modelling cyber-physical systems.  The tool is based on the <a href="http://www.overturetool.org/">Overture platform</a> and <a href="http://www.controllab.nl/en/products/20-sim.html">Controllab's 20-sim</a>.</p>
 
-<h3><a name="books" class="anchor" href="#getting-the-crescendo-tool"></a>Books</h3>
-
-<p>The book "Collaborative Design for Embedded Systems" can be fetched from <a href="http://www.springer.com/computer/communication+networks/book/978-3-642-54117-9">Springer's web site</a></p>
-
 <h3><a name="getting-documentation" class="anchor" href="#getting-documentation"></a>Getting documentation</h3>
 
  <ul>

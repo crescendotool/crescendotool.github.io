@@ -27,4 +27,4 @@ Both types are available for 32/64-bit for Java. The current version is <strong 
 
 <h3>Release History</h3>
 
-<h3 id="release-history"></h3>
+<div id="release-history"></div>
