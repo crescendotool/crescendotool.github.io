@@ -2,6 +2,9 @@
 layout: default
 title: Documentation
 ---
+
+### Documentation
+
 This site list the most important Crescendo resources. The documentation provided here is maintained by the Overture community and is available through this site:
 
 - [User Manual]({{site.url}}/documents/Crescendo-2.0.0-UserManual.pdf)
