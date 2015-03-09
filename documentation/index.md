@@ -8,5 +8,4 @@ title: Documentation
  <ul>
           <li><a href="documents/Crescendo-2.0.0-UserManual.pdf">The User Manual</a></li>
           <li><a href="documents/Crescendo-2.0.0-ExamplesCompendium.pdf">The Examples Compendium</a></li>
-          <li><a href="{{ site.url }}/documentation/videos.html">Videos</a></li>
  </ul>

@@ -19,9 +19,9 @@ title: downloads
             <li>Zip bundles just containing Crescendo/Overture</li>
           </ul>
 
-Both types are available for 32/64-bit for Java. The current version is <strong id="current-release-version">2.0.4</strong>
+Both types are available for 32/64-bit for Java. The current version is <strong id="current-release-version">2.0.x</strong>
 
-<i id="current-release-data">(January 2015)</i>.</p>
+<i id="current-release-data">(May 2014)</i>.</p>
 
 <div id="current-release"></div>
 
