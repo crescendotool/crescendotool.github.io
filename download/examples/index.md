@@ -12,14 +12,15 @@ examples to validate changes made to the tools.  All examples are
 included in our continuous build environment such that both model and
 tool consistency is checked.
 
-Examples are available from the Crescendo Book and the Examples Compendium. On these
-pages, you find a detailed overview of each example. You can also
-download a bundle of all examples for each group:
+Examples are available from the Crescendo Book and the Examples Compendium. On these pages, you find a detailed overview of each example. You can also
+download a bundle of all examples for each group. 
+
+Currently only the full zip bundle of all the models can be downloaded below, and the link to the detailed description of each model is coming soon. 
 
 |||
 |---|---|
-| [Crescendo example listing page]({{ site.url }}/examples/crescendoexamples/) | [zip bundle]({{ site.url }}/examples/examples.zip) |
-| [Crescendo book example listing page]({{ site.url }}/examples/crescendobookexamples/)  | [zip bundle]({{ site.url }}/examples/bookexamples.zip) |
+| [Crescendo example listing page]({{ site.url }}/examples/crescendoexamples/) | [zip bundle]({{ site.url }}/download/examples/examples.zip) |
+| [Crescendo book example listing page]({{ site.url }}/examples/crescendobookexamples/)  | [zip bundle]({{ site.url }}/download/examples/bookexamples.zip) |
 
 
 <!--If you have questions on these examples, you can either post a
