@@ -30,7 +30,7 @@ title: Overture- and VDM-related Videos
 <iframe width="640" height="360" src="//www.youtube.com/embed/fAm-L6oNjvE" frameborder="0" allowfullscreen></iframe>
 
 ## lf video1
-https://www.youtube.com/watch?v=
+
 <iframe width="640" height="360" src="//www.youtube.com/embed/p476KtQbW-Y" frameborder="0" allowfullscreen></iframe>
 
 ## Excavator Model
