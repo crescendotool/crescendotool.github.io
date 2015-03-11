@@ -7,7 +7,7 @@ title: RecentEvents
 
 <h4>Tutorial at the NPO TopSE centre</h4>
 
-<p>The NPO TopSE centre in Japan sponsored a tutorial on the Crescendo tool in October 2014.  Details and material (in Japanese) can be found on <a href="http://research.nii.ac.jp/~f-ishikawa/crescendo/">Fuyuki Ishikawa's seminar page</a> for the event</p>
+<p>The NPO TopSE centre in Japan sponsored a tutorial on the Crescendo tool in October 2014.  Details and material (in Japanese) can be found on <a href="http://research.nii.ac.jp/~f-ishikawa/crescendo/">Fuyuki Ishikawa's seminar page</a> for the event. Videos from this event are available following this <a href="https://video.ecloud.nii.ac.jp/Mediasite/Login/?ReturnUrl=\%2FMediasite\%2FCatalog\%2FFull\%2F30aa8ff928d94762a0c0b2bc397b051921\%2F\%3Fstate\%3DDHeqib1LxqBkG7ASGcVP">link</a> (Please use the username: lecturers2014 and password: 2014lecturers in order to login). </p>
 
 <h4>Tutorial at FM'14</h4>
 
@@ -20,3 +20,4 @@ title: RecentEvents
           <a href="files/FM14/3.DEandPractical2.pdf">VDM-RT for Co-simulation</a> (and <a href="files/FM14/Practical2.zip">related files</a>),
           <a href="files/FM14/4.IndustrialandCPSandConclusions.pdf">Industrial Applications and Cyber-physical Systems</a>.
         </p>
+        
