@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <title>Mediasite Player</title>
+        <link id="mainStylesheet" rel="stylesheet" type="text/css" href="Javascript/Players/ScreenReader/ScreenReader.css" />
+        <link rel="icon" type="image/png" href="favicon.png"/>
+
+        <script src="Javascript/Scripts/jquery.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/json2.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/Silverlight.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/Mediasite.Core.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/Mediasite.Player.Core.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/Mediasite.Player.Controller.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/Mediasite.Player.Model.js" type="text/javascript"></script>   
+        <script src="Javascript/Scripts/Mediasite.MediaPlayer.Model.js" type="text/javascript"></script>
+        <script src="Javascript/Players/ScreenReader/Mediasite.Player.ScreenReaderView.js" type="text/javascript"></script>
+  
+        <script src="Javascript/Scripts/Mediasite.Player.Localization.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/standalone-layout.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/standalone-manifest.js" type="text/javascript"></script>
+        <script src="Javascript/Scripts/standalone-behavior-screenreader.js" type="text/javascript"></script>
+        <script src="Localization/standalone-localization.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            jQuery(function () {
+
+                var controller = new Mediasite.Player.Controller();
+                var model = new Mediasite.Player.Model();
+                var view = new Mediasite.Player.ScreenReaderView();
+                var mediaModel;
+                var mediaView;
+
+                var mediaPlayerType = controller.DetectMediaPlayer();
+                switch (mediaPlayerType) {
+                case Mediasite.Player.MediaPlayerType.HTML5:
+                    mediaModel = new Mediasite.MediaPlayer.ModelHtml5();
+                    mediaView = new Mediasite.MediaPlayer.ScreenReaderViewHtml5(false);
+                    break;
+                case Mediasite.Player.MediaPlayerType.WindowsMedia:
+                case Mediasite.Player.MediaPlayerType.Port25:
+                    mediaModel = new Mediasite.MediaPlayer.ModelWindowsMedia(mediaPlayerType);
+                    mediaView = new Mediasite.MediaPlayer.ScreenReaderViewWindowsMedia(mediaPlayerType, false);
+                    break;
+                case Mediasite.Player.MediaPlayerType.Silverlight:
+                default:
+                    mediaModel = new Mediasite.MediaPlayer.ModelXap();
+                    mediaView = new Mediasite.MediaPlayer.ScreenReaderViewXap();
+                    mediaView.SetIsStandAlone(true);
+                    break;
+                }
+
+                if (mediaModel.SetIsStandAlone) mediaModel.SetIsStandAlone(true);
+                if (mediaView.SetIsStandAlone) mediaView.SetIsStandAlone(true);
+                controller.LoadPlayer(view, model, mediaView, mediaModel);
+            });
+        </script> 
+
+    </head>
+<body>
+ 
+    <div id="standardPlayerPrompt" aria-hidden="true"></div>
+
+    <div id="errorMessage" role="alert"></div>
+
+    <div id="TitleBanner" role="banner"></div>        
+                        
+    <div id="MainPlayer" role="main">
+
+        <div id="PresentationInfo">
+            <div id="presentationTitle"></div>
+            <div id="presentationPresentersLabel" role="heading"></div>
+            <ul id="presentationPresenters"></ul>
+            <div id="presentationDescriptionLabel"></div>            
+            <div id="presentationDescription"></div> 
+            <div>        
+                <span id="presentationAirDateLabel"></span>            
+                <span id="presentationAirDate"></span>            
+            </div>           
+            <div>
+                <span id="presentationAirTimeLabel"></span>            
+                <span id="presentationAirTime"></span>
+            </div>        
+            <div>
+                <span id="presentationDurationLabel"></span>
+                <span id="presentationDuration"></span>
+            </div>
+        </div>
+
+        <div id="mediaElementArea" role="application" tabindex="1"></div>
+
+        <div id="mediaState" aria-live="polite"></div>
+        <div id="mediaPosition" role="timer"></div>
+        <div id="volumeLevel" aria-live="polite"></div>
+        <div class="playbackRateControls">
+            <div id="currentPlaybackRate" aria-live="polite"></div>
+        </div>
+
+       <div id="mediaControls" role="toolbar">
+            <div>
+                <button id="btnPlayPause" type="button" role="button"></button>
+            </div>
+            <div>
+                <button id="btnSkipBack" type="button" role="button"></button>
+            </div>
+                <button id="btnMute" type="button" role="button"></button>
+            <div class="playbackRateControls">
+                <div>
+                    <button id="btnPlaySlower" type="button" role="button"></button>
+                </div>
+                <div>
+                    <button id="btnPlayFaster" type="button" role="button"></button>
+                </div>                
+            </div>
+            <div>
+                <button id="btnVolumeDecrease" type="button" role="button"></button>
+            </div>
+            <div>
+                <button id="btnVolumeIncrease" type="button" role="button"></button>
+            </div>
+        </div>        
+    </div>
+ 
+    <div id="currentSlideTitle" aria-live="polite" aria-describedby="currentSlideDescription"></div>
+    <div id="currentSlideDescription"></div>
+
+    <div id="slideListArea" role="navigation">
+        <div id="slideListHeader" role="heading"></div>
+        <ul id="slideList" role="list" aria-labelledby="slideListHeader"></ul>
+    </div>        
+
+    <div id="chapterArea" role="navigation">
+        <div id="chapterHeader" role="heading"></div>
+        <ul id="chapterList" role="list" aria-labelledby="chapterHeader"></ul>
+    </div>  
+
+    <div id="linkArea" role="complementary">
+        <div id="linkHeader" role="heading"></div>
+        <ul id="linkList" role="list" aria-labelledby="linkHeader"></ul>
+    </div>  
+    <div id="pollArea" role="complementary">
+        <a href="#" id="pollLink"></a>
+    </div>
+    <div id="questionForm" role="form" aria-labelledby="questionHeader">
+        <div id="questionHeader"></div>        
+        <div>
+            <div id="questionLabelName"></div>
+            <input id="questionName" type="text" role="textbox" aria-required="true" aria-labelledby="questionLabelName" />
+        </div>
+        <div>
+            <div id="questionLabelEmail"></div>
+            <input id="questionEmail" type="text" role="textbox" aria-labelledby="questionLabelEmail"/>
+        </div>
+        <div>
+            <div id="questionLabelSubject"></div>
+            <input id="questionSubject" type="text" role="textbox" aria-required="true" aria-labelledby="questionLabelSubject"/>
+        </div>
+        <div>
+            <div id="questionLabelBody"></div>
+            <textarea id="questionBody" rows="2" cols="20" role="textbox" aria-multiline="true" aria-required="true" aria-labelledby="questionLabelBody"></textarea>
+        </div>
+        <div>
+            <div id="questionLabelTime"></div>
+            <input id="questionTime" type="text" role="textbox" aria-labelledby="questionLabelTime"/>
+            <button id="questionUseCurrentTime" type="button" role="button"></button>
+        </div>
+        <div>
+            <button id="questionSubmit" type="button" role="button"></button>
+        </div>
+        <div id="questionSubmitResult" aria-live="assertive"></div>
+    </div>
+    <div id="sendEmailForm" role="form" aria-labelledby="sendEmailHeader">
+        <div id="sendEmailHeader"></div>
+            <a href="mailto:" id="sendEmailUseClientLink"></a>
+            <div id="sendEmailServerForm">
+            <div>
+                <div id="sendEmailLabelFrom"></div>
+                <input id="sendEmailFrom" type="text" role="textbox" aria-required="true" aria-labelledby="sendEmailLabelFrom" />
+            </div>
+            <div>
+                <div id="sendEmailLabelTo"></div>            
+                <input id="sendEmailTo" type="text" role="textbox" aria-required="true" aria-labelledby="sendEmailLabelTo" />
+            </div>
+            <div>
+                <div id="sendEmailLabelSubject"></div>
+                <input id="sendEmailSubject" type="text" role="textbox" aria-labelledby="sendEmailLabelSubject" />
+            </div>
+            <div>
+                <div id="sendEmailLabelBody"></div>
+                <textarea id="sendEmailBody" rows="2" cols="20" role="textbox" aria-multiline="true" aria-labelledby="sendEmailLabelBody"></textarea>
+            </div>
+            <div>
+                <div id="sendEmailLabelTime"></div>
+                <input id="sendEmailTime" type="text" role="textbox" aria-labelledby="sendEmailLabelTime"/>
+                <button id="sendEmailUseCurrentTime" type="button" role="button"></button>
+            </div>
+            <div>
+                <button id="sendEmailSubmit" type="button" role="button"></button>
+            </div>
+            <div id="sendEmailSubmitResult" aria-live="assertive"></div>
+        </div>
+    </div>
+</body>
+</html>
