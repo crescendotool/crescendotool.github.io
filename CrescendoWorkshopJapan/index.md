@@ -9,6 +9,6 @@ title: CrescendoWorkshopJapan
 
 <p>The NPO TopSE centre in Japan sponsored a tutorial on the Crescendo tool in October 2014.  Details and material (in Japanese) can be found on <a href="http://research.nii.ac.jp/~f-ishikawa/crescendo/">Fuyuki Ishikawa's seminar page</a> for the event. Videos from this event are available following these links (please note that it is divided in three parts):</p>
 
-- [First part](http://staff.iha.dk/pgl/CrescendoVideo/FirstVideo/)
-- [Second part](http://staff.iha.dk/pgl/CrescendoVideo/SecondVideo/)
-- [Third part](http://staff.iha.dk/pgl/CrescendoVideo/ThirdVideo/)
+- [First part](http://staff.iha.dk/pgl/CrescendoVideo/FirstVideo/) (in English)
+- [Second part](http://staff.iha.dk/pgl/CrescendoVideo/SecondVideo/) (in Japanese)
+- [Third part](http://staff.iha.dk/pgl/CrescendoVideo/ThirdVideo/) (in English)
