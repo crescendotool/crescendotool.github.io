@@ -5,8 +5,8 @@ title: downloads
 
 ### Downloads
 
-<link rel="stylesheet" href="stylesheets/styles.css">
-<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+<link rel="stylesheet" href="/stylesheets/styles.css">
+<link rel="stylesheet" href="/stylesheets/pygment_trac.css">
 <link rel="stylesheet" href="/stylesheets/releases.css">
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="/javascripts/moment-with-langs.js"></script>
