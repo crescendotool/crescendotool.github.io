@@ -12,6 +12,7 @@ title: downloads
 <script src="/javascripts/moment-with-langs.js"></script>
 <script src="/javascripts/github-releases.js"></script>
 <script>updateDownloadPage();</script>
+<script>updateFrontPage();</script>
 
 <h3><a name="getting-the-crescendo-tool" class="anchor" href="#getting-the-crescendo-tool"></a>Getting the Crescendo tool</h3>
 
