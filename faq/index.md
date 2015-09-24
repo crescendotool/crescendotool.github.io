@@ -1,3 +1,8 @@
+---
+layout: default
+title: FAQ
+---
+
 # FAQ
 
 * The simulation is aborted by a filed call to getVersion (20sim)
