@@ -19,8 +19,8 @@ Currently only the full zip bundle of all the models can be downloaded below, an
 
 |||
 |---|---|
-| [Crescendo example listing page]({{ site.url }}/examples/crescendoexamples/) | [zip bundle]({{ site.url }}/download/examples/examples.zip) |
-| [Crescendo book example listing page]({{ site.url }}/examples/crescendobookexamples/)  | [zip bundle]({{ site.url }}/download/examples/bookexamples.zip) |
+| Crescendo examples | [zip bundle]({{ site.url }}/download/examples/examples.zip) |
+| Crescendo book examples  | [zip bundle]({{ site.url }}/download/examples/bookexamples.zip) |
 
 
 <!--If you have questions on these examples, you can either post a
