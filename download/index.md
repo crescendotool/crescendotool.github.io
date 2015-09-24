@@ -22,7 +22,7 @@ title: downloads
             <li>Zip bundles just containing Crescendo/Overture</li>
           </ul>
 
-Both types are available for 32/64-bit for Java. The current version is <strong id="current-release-version">2.0.x</strong> <i id="current-release-data">(May 2014)</i>.</p>
+Both types are available for 32/64-bit for Java. The current version is <strong id="current-release-version">2.0.x</strong> <i id="current-release-data">(May 2014)</i>. Please note that in order for being able to try using the Crescendo co-simulation feature you need to at least have a trial license for the 20-sim tool. When you start up 20-sim there is a Try button that you can press to request a trial license.</p>
 
 <div id="current-release"></div>
 
